@@ -1,6 +1,7 @@
 import express from "express";
 import authMiddleware from "../middleware/authMiddleware.js";
 import Account from "../models/accountModel.js";
+import mongoose from "mongoose";
 const accountRouter = express.Router();
 
 // get balance of user
